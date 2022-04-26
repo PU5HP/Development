@@ -26,7 +26,7 @@ let secondname="last";
 console.log(firstname+secondname);
 
 let x="ksmd sdk sd skdm sks d ";
-let arr = x.split(" ");
+let arr = x.split('s');
 console.log(arr);
 
 
