@@ -7,4 +7,8 @@ let cp =require('child_process');
 
 //cp.execFileSync('gnome-calculator')
 //cp.execFileSync('firefox')
-cp.execFileSync('test.js')
+let content =cp.execSync("node test.js");
+//execSync---> created a new terminal and run the commands in the double quotes
+console.log("this is test file "+content);
+console.log(content);//hexadecimal
+console.log(""+content);//string
