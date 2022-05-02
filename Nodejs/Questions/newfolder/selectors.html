@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /*universal selector : all the tags are applied with that property */
+       /* *{
+            color: blue;
+        }*/
+        /*div{
+            color: blueviolet;
+        }*/
+        /*class selector :*/
+        .four{
+            font-size: xx-large;
+        }
+        .three{
+            color: brown;
+        }
+        #id1{
+            background-color: darkolivegreen;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Selectors in the css</h1>
+
+    <div class="three four">
+         <h2>inside div 1</h2>
+    </div>
+    <div id="id1" class="four" class="three" > <!--the class which is written first is applied in the sequence-->
+        <h4>inside the div 2</h4>
+        <p>p in side the div 2 </p>
+    </div>
+    <div class="three">
+        <h3>inside the div 3</h3>
+        <p>p in side the div 3 </p>
+    </div>
+    <div class="three">
+        <h3>inside the div 4</h3>
+        <p>p in side the div 4 </p>
+    </div>
+    <p class="three">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos nulla ex? Accusantium non velit commodi maiores fugiat error laudantium nemo recusandae itaque numquam. Veniam a ullam consequatur incidunt fugiat?</p>
+    <p class="four">class four</p>
+
+</body>
+</html>
